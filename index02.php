@@ -20,7 +20,6 @@ while($tekrar>0){
 }
 
 
-*/
 
 
 $sayi = 1;
@@ -28,6 +27,12 @@ do{
   echo "$sayi = ahfdgdf.com.tr <br/>";
   $sayi++;
 }while($sayi<10)
+
+
+*/
+
+
+
 
 
 ?>
