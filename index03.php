@@ -18,11 +18,24 @@ while($sayi<=15){
   echo "Faktoriyel: $carpim";
 }*/
 
-
+/*
 $i=0;
 while(1){
   echo "Değer: $i";
   if($i<=100){
+    $i++;
+  }else{
+    break;
+  }
+}*/
+
+$i=0;
+for(;;){
+  if($i==50){
+    continue;
+  }
+  echo "Değer: $i";
+  if($i<=99){
     $i++;
   }else{
     break;
