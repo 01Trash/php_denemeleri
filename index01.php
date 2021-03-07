@@ -1,5 +1,5 @@
 <?php
-/*
+
 
 $durum = 5;
 $sayi1 = 10;
@@ -73,7 +73,7 @@ else
 $sayi = 6;
 echo isset($sayi) && !empty($sayi) ? "\$sayi değişkeinin değeri: $sayi.":"\$sayi değişkeni boş veya tanımlı değil.";
 
-*/
+
 
 $gun = 5;
 switch ($gun){
@@ -102,6 +102,7 @@ switch ($gun){
   echo "Hata!";
   break;
 }
+
 
 
 ?>
