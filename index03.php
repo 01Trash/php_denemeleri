@@ -1,6 +1,6 @@
 <?php
 
-/*
+
 $toplam = 0;
 for($i=1;$i<=10;$i++){
   $toplam+=$i;
@@ -18,7 +18,7 @@ while($sayi<=15){
   echo "Faktoriyel: $carpim";
 }*/
 
-/*
+
 $i=0;
 while(1){
   echo "Değer: $i";
@@ -27,7 +27,7 @@ while(1){
   }else{
     break;
   }
-}*/
+}
 
 $i=0;
 for(;;){
