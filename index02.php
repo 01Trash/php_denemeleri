@@ -7,7 +7,7 @@ while($sayi>=1){
   $sayi--;
 }
 
-echo "Faktoriyel $faktoriyel";
+echo "Faktoriyel: $faktoriyel";
 
 
 ?>
