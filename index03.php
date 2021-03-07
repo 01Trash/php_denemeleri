@@ -1,6 +1,5 @@
 <?php
 
-
 $toplam = 0;
 for($i=1;$i<=10;$i++){
   $toplam+=$i;
@@ -8,15 +7,6 @@ for($i=1;$i<=10;$i++){
 }
 echo "1-10 toplam: $toplam";
 
-
-/*$sayi = 1;
-while($sayi<=15){
-  $carpim=1;
-  for($i=1;$i<=$sayi;$i++){
-    $carpim*=$i;
-  }
-  echo "Faktoriyel: $carpim";
-}*/
 
 
 $i=0;
@@ -41,6 +31,20 @@ for(;;){
     break;
   }
 }
+
+
+
+$dizi = array('elma', 'armut', 'domates', 'kiraz');
+$dizi2 = array('elma'=>10, 'armut'=>5, 'domates'=>9, 'kiraz'=>14);
+
+foreach($dizi as $key => $value){
+  echo "Meyve: $key <br/>";
+}
+
+foreach($dizi as $key => $value){
+  echo "Meyve: $key Fiyatı: ".$value." <br/>";
+}
+
 
 
 ?>
