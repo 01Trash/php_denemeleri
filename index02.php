@@ -1,6 +1,5 @@
 <?php
 
-/*
 $sayi = 5;
 $faktoriyel = 1;
 while($sayi>=1){
@@ -27,12 +26,6 @@ do{
   echo "$sayi = ahfdgdf.com.tr <br/>";
   $sayi++;
 }while($sayi<10)
-
-
-*/
-
-
-
 
 
 ?>
