@@ -19,6 +19,15 @@ while($sayi<=15){
 }*/
 
 
+$i=0;
+while(1){
+  echo "Değer: $i";
+  if($i<=100){
+    $i++;
+  }else{
+    break;
+  }
+}
 
 
 ?>
