@@ -1,5 +1,6 @@
 <?php
 
+/*
 $sayi = 5;
 $faktoriyel = 1;
 while($sayi>=1){
@@ -9,5 +10,12 @@ while($sayi>=1){
 
 echo "Faktoriyel: $faktoriyel";
 
+*/
+
+$tekrar = 100;
+while($tekrar>0){
+  echo "Sayı: $tekrar <br/>";
+  $tekrar--;
+}
 
 ?>
