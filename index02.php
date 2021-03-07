@@ -10,12 +10,24 @@ while($sayi>=1){
 
 echo "Faktoriyel: $faktoriyel";
 
-*/
+
 
 $tekrar = 100;
 while($tekrar>0){
-  echo "Sayı: $tekrar <br/>";
+  echo "Sayı: $tekrar";
+  //echo "<br/>";
   $tekrar--;
 }
+
+
+*/
+
+
+$sayi = 1;
+do{
+  echo "$sayi = ahfdgdf.com.tr <br/>";
+  $sayi++;
+}while($sayi<10)
+
 
 ?>
