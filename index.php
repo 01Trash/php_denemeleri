@@ -68,8 +68,10 @@ else
     echo "\$sayi değişkeni boş.";
 */
 
+
 $sayi = 6;
-$yazdir = isset($sayi) && !empty($sayi) ? "\$sayi değişkeinin değeri: $sayi.":"\$sayi değişkeni boş veya tanımlı değil.";
+echo isset($sayi) && !empty($sayi) ? "\$sayi değişkeinin değeri: $sayi.":"\$sayi değişkeni boş veya tanımlı değil.";
+
 
 
 ?>
