@@ -19,6 +19,7 @@ while(1){
   }
 }
 
+
 $i=0;
 for(;;){
   if($i==50){
@@ -44,7 +45,6 @@ foreach($dizi as $key => $value){
 foreach($dizi as $key => $value){
   echo "Meyve: $key Fiyatı: ".$value." <br/>";
 }
-
 
 
 ?>
